@@ -14,4 +14,4 @@ It also provides us with recent news on Covid and health issues from all over In
 - Hospital Beds Data  [https://covidwb.com/](https://covidwb.com/)
 - Health News [https://newsapi.org/v2/top-headlines]( https://newsapi.org/v2/top-headlines)
 ![alt text](https://github.com/koistav1212/CoronaMeter/blob/master/mockup1.png?raw=true)
-![alt text](https://github.com/koistav1212/CoronaMeter/blob/master/mockup2png?raw=true)
+![alt text](https://github.com/koistav1212/CoronaMeter/blob/master/mockup2.png?raw=true)
