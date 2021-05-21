@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "921428517558",
+    "project_id": "facebookauth-fa52b",
+    "storage_bucket": "facebookauth-fa52b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921428517558:android:a2dc42d6df9bcac9c37c17",
+        "android_client_info": {
+          "package_name": "com.example.faceauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921428517558-o8j184q6squ9gq56kj82ab9o76fn542j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.faceauth",
+            "certificate_hash": "6fedf8bc585f3cdcf3e38f302bfd5e10ee0bef0c"
+          }
+        },
+        {
+          "client_id": "921428517558-erdpublacqh5nshdln0qt4edh1reckii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQG5ItZKfuYU_ybKAm-cJVFCG_mnK9zGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921428517558-erdpublacqh5nshdln0qt4edh1reckii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921428517558:android:d4346d07cce80bc6c37c17",
+        "android_client_info": {
+          "package_name": "com.example.travellingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921428517558-erdpublacqh5nshdln0qt4edh1reckii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQG5ItZKfuYU_ybKAm-cJVFCG_mnK9zGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921428517558-erdpublacqh5nshdln0qt4edh1reckii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

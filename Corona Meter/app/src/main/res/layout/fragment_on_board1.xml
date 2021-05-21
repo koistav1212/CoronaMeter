@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".onBoard1"
+    android:background="#83B92B5C">
+
+    <!-- TODO: Update blank fragment layout -->
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    app:lottie_rawRes="@raw/dashboard"
+    app:lottie_autoPlay="true"
+    app:lottie_loop="true"
+    android:id="@+id/onboardImg1"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:textSize="25sp"
+    android:textStyle="bold"
+    android:text="Corona Meter"
+    android:id="@+id/onboardName1"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="50dp"
+    app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="normal"
+
+        android:textColor="@color/white"
+        android:text="Skip"
+        android:id="@+id/onboardSkip1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="30dp"
+        android:textSize="17sp"
+        android:textColor="#B92B5C"
+        android:layout_height="wrap_content"
+        android:id="@+id/onboardDescribe1"
+        android:text="Get Statistical data of States and districts. It Provides all the required Information from all the Covid Hospitals in West Bengal."
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/onboardImg1"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

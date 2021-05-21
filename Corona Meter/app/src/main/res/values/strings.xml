@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Corona Meter</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="viewGithub">View on GitHub</string>
+    <string name="reportProblem">Problem Report</string>
+    <string name="viewWebsite">Developer Website</string>
+    <string name="actionSave">Save to Gallery</string>
+
+    <string name="animateX">Animate X</string>
+    <string name="animateY">Animate Y</string>
+    <string name="animateXY">Animate XY</string>
+
+    <string name="actionToggleValues">Toggle Values</string>
+    <string name="actionToggleYValues">Toggle Y-Values</string>
+    <string name="actionToggleXValues">Toggle X-Values</string>
+
+    <string name="actionToggleIcons">Toggle Icons</string>
+    <string name="actionToggleHighlight">Toggle Highlight</string>
+    <string name="actionTogglePinch">Toggle PinchZoom</string>
+    <string name="actionToggleAutoScale">Toggle Auto Scale</string>
+
+    <string name="actionToggleLineValues">Toggle Line Values</string>
+    <string name="actionToggleBarValues">Toggle Bar Values</string>
+    <string name="actionToggleBarBorders">Toggle Bar Borders</string>
+    <string name="actionToggleFilled">Toggle Filled</string>
+    <string name="actionToggleCircles">Toggle Circles</string>
+    <string name="actionToggleCaandleShadow">Toggle Shadow Color</string>
+
+    <string name="actionToggleCubic">Toggle Cubic</string>
+    <string name="actionToggleStepped">Toggle Stepped</string>
+    <string name="actionToggleHorizontalCubic">Toggle Horizontal Cubic</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZWFnbGVodW50NjkiLCJhIjoiY2tvZzZxdmZhMG5xMzJ2anpjOGh5MXk4dCJ9.Mwjw-AjPmEHvKEwXos__TQ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="link1"><a href="https://corona.lmao.ninja/v3/covid-19/countries/India?yesterday=true&amp;strict=true" /></string>
+</resources>

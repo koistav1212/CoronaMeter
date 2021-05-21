@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:background="@drawable/champagne"
+     />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/pause"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_media_pause"
+            android:onClick="musicpause" />
+
+        <Button
+            android:id="@+id/start"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_media_play"
+            android:onClick="musicplay" />
+
+        <Button
+            android:id="@+id/stop"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_delete"
+            android:onClick="musicstop" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userProfile"
+    android:id="@+id/userProfile"
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:id="@+id/cardview"
+    android:src="@drawable/semicircle"
+    android:scaleType="fitStart"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/circle"
+        android:onClick="handleImageClick"
+        android:src="@drawable/avatar1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textname"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:hintTextColor="@color/teal_200"
+    android:hint="Display Name"
+    app:layout_constraintTop_toBottomOf="@id/cardview"
+    />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name"
+        android:layout_width="200dp"
+android:layout_marginTop="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:hintTextColor="@color/teal_200"
+        android:hint="Display Name"
+        app:layout_constraintTop_toBottomOf="@id/cardview">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/displayNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/updateProfileButton"
+        android:background="@drawable/custom_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:onClick="updateProfile"
+        android:text="Update Profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/updateProfileButton"
+        app:layout_constraintEnd_toEndOf="@+id/updateProfileButton"
+        app:layout_constraintStart_toStartOf="@+id/updateProfileButton"
+        app:layout_constraintTop_toTopOf="@+id/updateProfileButton" />
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:textColor="@color/white"
+    app:layout_constraintTop_toBottomOf="@id/updateProfileButton"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:id="@+id/logout"
+    android:background="@drawable/custom_button1"
+    android:text="LOGOUT"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>

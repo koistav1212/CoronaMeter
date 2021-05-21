@@ -1,0 +1,22 @@
+<resources>
+
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">#FF9800</item>
+            <item name="colorPrimaryDark">#FF5722</item>
+            <item name="colorAccent">#FFC107</item>
+
+        <item name="buttonStyle">@style/YourButtonStyle</item>
+        <!-- For preview -->
+
+        <item name="android:buttonStyle">@style/YourButtonStyle</item>
+    </style>
+
+    <style name="YourButtonStyle" parent="@style/Widget.AppCompat.Button">
+        <!-- Set background -->
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+</resources>

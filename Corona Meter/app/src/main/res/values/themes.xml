@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Quora2" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">#EF759F</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:button">@style/roundedImageViewRounded</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="roundedImageViewRounded" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="android:background">@drawable/custom_button</item>
+    </style>
+    <style name="LoginTheme" parent="FirebaseUI">
+                <item name="colorPrimaryDark">#EF759F</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#E02F6B</item>
+        <item name="colorPrimaryVariant">#EF759F</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:windowBackground">@drawable/card_back</item>
+
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+</resources>

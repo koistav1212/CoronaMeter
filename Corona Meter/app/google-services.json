@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "468504619251",
+    "project_id": "eaglestrike1",
+    "storage_bucket": "eaglestrike1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468504619251:android:a0386a0fa35e57f8112f86",
+        "android_client_info": {
+          "package_name": "com.example.quora2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468504619251-u8mvmcbug094h9170cfvtjtc8oinl16h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quora2",
+            "certificate_hash": "6fedf8bc585f3cdcf3e38f302bfd5e10ee0bef0c"
+          }
+        },
+        {
+          "client_id": "468504619251-07008ipj8anldc7p8p0edv59pbcli8g0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrhD4XSRvcsBdRtxSMSdY44l_Ppxjx57A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468504619251-07008ipj8anldc7p8p0edv59pbcli8g0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

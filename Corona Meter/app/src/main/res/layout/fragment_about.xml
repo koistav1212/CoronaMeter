@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F9D8FF"
+    tools:context=".about">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_margin="10dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/speedometer"
+            android:id="@+id/app_logo"
+            />
+
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Corona Meter"
+               android:layout_gravity="center"
+               android:layout_margin="10dp"
+               android:textSize="25sp"
+               android:textColor="#A6E91E63"
+               android:fontFamily="@font/berkshire_swash"/>
+           <ImageView
+               android:layout_width="25dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/share"
+               android:elevation="2dp"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintRight_toRightOf="parent"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_alignParentRight="true"
+               android:src="@drawable/ic_baseline_share_24"/>
+
+       </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                      android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="This App helps users to track covid and health related Data.
+It takes data from most reliable and frequently updated apis and represent them in listview. This app shows covid cases,deaths,recovered etc. of all states and districts.
+This app also shows bed availability of covid hospital and corona care centres in West Bengal.
+It also provides us with recent news on Covid and health issues from all over India.This app has user login registration function through Google ,Fb or Phone Number which is backend by Firebase. Liquid animation and fragment Transitions for menus and much more is waiting for you."/>
+        <TextView
+                      android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sources"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:textColor="#A6E91E63"
+            android:fontFamily="@font/berkshire_swash"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_stars_24"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+        <TextView
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textColor="@color/black"
+    android:text="India Details:"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginLeft="10dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textColor="@color/black"
+        android:text="https://corona.lmao.ninja/v3/covid-19/countries/India?yesterday=true&amp;strict=true"
+        />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_stars_24"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="State  District:"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textColor="@color/black"
+                android:text="https://api.covid19india.org/v2/state_district_wise.json"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_stars_24"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Daily Cases:"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textColor="@color/black"
+
+android:text="https://api.covid19india.org/states_daily.json"             />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_stars_24"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Hospital Details:"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textColor="@color/black"
+android:text="https://geeksforgeeks.org/"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_stars_24"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="News Details:"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"
+
+                android:text="https://newsapi.org/v2/top-headlines"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:textColor="#A6E91E63"
+            android:text="About Developer"
+            android:fontFamily="@font/berkshire_swash"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/mine"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Hey Guys, this is My first public Android App project.
+I am 2nd year B.tech(CSE) student. I am a Android app and Web developer and competitive Coder.
+Creating modern ui and design patterns is one thing I am passionate about.It took me 2-3 weeks to develop this app so show some Courtesy and share the app as much as possible.
+My other Projects are provided in my portfolio given below."
+/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:autoLink="web"
+            android:layout_gravity="center"
+            android:linksClickable="true"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:text="https://eagle-hunt.herokuapp.com/"            />
+    </LinearLayout>
+</ScrollView>

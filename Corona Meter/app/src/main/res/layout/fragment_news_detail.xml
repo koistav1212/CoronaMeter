@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsDetail"
+    android:background="#F9D8FF"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/newsIcon"
+    android:padding="10dp"
+    android:scaleType="centerCrop"
+    android:src="@color/red"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginBottom="10dp"
+           android:id="@+id/headline"
+           android:fontFamily="@font/open_sans_semibold"
+           android:text="corona fake news"
+           android:textColor="#C0E91E63"
+           android:textSize="22sp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/source"
+           android:text="kjashdkjh"
+           android:layout_marginLeft="10dp"
+           android:textStyle="bold"
+           android:fontFamily="@font/abel"
+           android:textColor="@color/black"
+           android:textSize="17sp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/content"
+           android:text="kjashdkjh kjashdkjh kjashdkjh kjashdkjh kjashdkjh kjashdkjh kjashdkjh kjashdkjh"
+           android:layout_margin="10dp"
+           android:textStyle="bold"
+           android:fontFamily="@font/abel"
+           android:textColor="@color/black"
+           android:textSize="19sp"
+/>
+       <androidx.appcompat.widget.AppCompatButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/letsgo"
+           android:background="@drawable/card_button"
+           android:layout_marginTop="20dp"
+           android:text="Read Entire Article"
+           android:layout_gravity="center"
+           android:textColor="@color/white"
+           android:layout_margin="5dp"
+           android:padding="10dp"
+           android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+           />
+
+
+   </LinearLayout>
+</ScrollView>

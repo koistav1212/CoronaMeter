@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp">
+        <TextView
+            android:id="@+id/company_heading1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOPLIFE "
+            android:textSize="50dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/berkshire_swash"
+            />
+        <TextView
+            android:id="@+id/company_heading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACADEMY"
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/berkshire_swash"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+android:layout_margin="10dp"
+
+            android:textColor="@color/black"
+            android:text="Discover Your Inborn Talents Through Globally Recognized Science Of DMIT">
+
+        </TextView>
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:src="@drawable/about_img1"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#4658b0"
+            android:layout_marginTop="100dp">
+            <TextView
+android:id="@+id/choose_heading1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Why Choose Us"
+                android:textSize="50dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/berkshire_swash"
+                />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha=".4"
+                    android:fontFamily="serif"
+                    android:text="BENEFITS"
+
+                    android:textSize="45dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OUR"
+                android:textSize="30dp"
+         
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:fontFamily="@font/open_sans"
+                />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/open_sans"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="We have a local and national reputation for excellence due to the outstanding quality of our teaching and support and the resulting high levels of student aspiration and achievements. We will help you realise your potential, maximise your results and achieve success in the future.
+				It is a proven concept that franchises have a higher rate of success in comparison to a startup business. As a sizeable amount of work has already been achieved by the franchisor, high-brand awareness and recall has successfully been accomplished." />
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:textSize="20dp"
+                 android:background="@drawable/custom_button1"
+                  android:layout_gravity="center_horizontal"
+                  android:text=" Know More >"
+                  />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:fitsSystemWindows="true"
+                app:auto_cycle="true"
+                app:corner_radius="20"
+                app:delay="0"
+                app:error_image="@drawable/bg_grey"
+                app:period="2000"
+                app:placeholder="@drawable/bg_grey" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/drawer_header"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
